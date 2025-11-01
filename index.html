@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebCore 9.6 Final</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/font/TTLakes/stylesheet.css" />
   </head>
   <body>
     <div class="page">
@@ -24,7 +26,7 @@
           </div>
         </div>
         <div class="slider_services">
-          <div class="slider_services_div div_first">Ремонт техники</div>
+          <div class="slider_services_div slider_div_first">Ремонт техники</div>
           <div class="slider_services_div">Услуги и сервисы</div>
           <div class="slider_services_div">Корпоративным клиентам</div>
           <div class="slider_services_div">Продавцам техники</div>
@@ -123,8 +125,22 @@
               обращаются по рекомендациям и, в свою очередь, советуют нас родным
               и близким.
             </div>
+            <div class="main_title_hiden">
+              Мы являемся авторизованным сервисным центром по ремонту техники
+              Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+              официальной гарантией производителя. Мы успешно работаем с 1992
+              года и заслужили репутацию надежного партнера, что подтверждает
+              большое количество постоянных клиентов. Мы гордимся тем, что к нам
+              обращаются по рекомендациям и, в свою очередь, советуют нас родным
+              и близким.
+            </div>
             <div class="main_button">
-              <button>Читать далее</button>
+              <button class="main_button_visible">
+                <img src="/img/expand.png" alt="" /> Читать далее
+              </button>
+              <button class="main_button_hidden">
+                <img src="/img/up.png" alt="" /> Скрыть
+              </button>
             </div>
           </div>
           <div class="main_poster">
@@ -189,7 +205,9 @@
               </div>
             </div>
 
-            <div class="repair_brands_button pair_button">Показать всё</div>
+            <div class="repair_brands_button pair_button"><img src="/img/expand.png" alt=""> Показать всё</div>
+          </div>
+          <div class="repair_brands_button brands_button_hidden"><img src="/img/up.png" alt=""> Скрыть</div>
           </div>
           <div class="repair_brands_swiper_pagination pagination"></div>
         </div>
@@ -199,38 +217,41 @@
               РЕМОНТ РАЗЛИЧНЫХ ВИДОВ ТЕХНИКИ
             </div>
             <div class="repair_types_main">
-              <div class="types_main_parth">Ремонт ноутбуков .</div>
-              <div class="types_main_parth">
-                Ремонт планшетов
+              <div class="types_main_parth">Ремонт ноутбуков 
                 <div class="types_main_arrow">
                   <img src="/img/pointer.png" alt="" />
                 </div>
               </div>
-              <div class="types_main_parth">
-                Ремонт ПК
+              <div class="types_main_parth">Ремонт планшетов
                 <div class="types_main_arrow">
                   <img src="/img/pointer.png" alt="" />
                 </div>
               </div>
-              <div class="types_main_parth">
-                Ремонт мониторов
+              <div class="types_main_parth">Ремонт ПК
                 <div class="types_main_arrow">
                   <img src="/img/pointer.png" alt="" />
                 </div>
               </div>
-              <div class="types_main_parth">
-                Ремонт снеговиков
+              <div class="types_main_parth">Ремонт мониторов
                 <div class="types_main_arrow">
                   <img src="/img/pointer.png" alt="" />
                 </div>
               </div>
-              <div class="types_main_parth">Ремонт ковров</div>
+              <div class="types_main_parth">Ремонт снеговиков
+                <div class="types_main_arrow">
+                  <img src="/img/pointer.png" alt="" />
+                </div>
+              </div>
+              <div class="types_main_parth">Ремонт ковров <div class="types_main_arrow">
+                  <img src="/img/pointer.png" alt="" />
+                </div>
+              </div>
             </div>
             <div class="types_main_button pair_button">
-              Показать всё
-              <div class="types_main_arrow">
-                <img src="/img/pointer.png" alt="" />
-              </div>
+             <img src="/img/expand.png" alt="">Показать всё
+            </div>
+            <div class="types_main_button pair_button">
+             <img src="/img/up.png" alt="">Скрыть
             </div>
           </div>
           <div class="repair_types_swiper_pagination pagination"></div>
